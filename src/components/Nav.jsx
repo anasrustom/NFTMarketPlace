@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../images/LogoWith.png";
+import Logo from "../images/Ultraverse.png";
 import { Link } from "react-router-dom";
 import { FaTimes } from "react-icons/fa";
 
@@ -39,13 +39,13 @@ const Nav = () => {
               <div className="de-flex-col header-col-mid">
                 <ul id="mainmenu">
                   <li className="menu-item-has-children has-child">
-                    <Link to="/explore">
-                      News Hub<span></span>
+                    <Link to="/">
+                      Home<span></span>
                     </Link>
                   </li>
                   <li className="menu-item-has-children has-child">
-                    <Link to="/baj">
-                      Become a Journalist<span></span>
+                    <Link to="/explore">
+                      Explore<span></span>
                     </Link>
                   </li>
                   <li>
@@ -56,7 +56,7 @@ const Nav = () => {
                         alert("This feature has not been implemented yet")
                       }
                     >
-                      Sign Up
+                      Connect wallet
                     </Link>
                   </li>
                 </ul>
@@ -72,13 +72,13 @@ const Nav = () => {
 
       <ul id="dropdown__wrapper">
         <li className="dropdown__list">
-          <Link to="/explore" onClick={() => closeNav()}>
-            News Hub
+          <Link to="/" onClick={() => closeNav()}>
+            Home
           </Link>
         </li>
         <li className="dropdown__list">
-          <Link to="/" onClick={() => closeNav()}>
-            Become a Journalist
+          <Link to="/explore" onClick={() => closeNav()}>
+            Explore
           </Link>
         </li>
         <li className="close__button">
