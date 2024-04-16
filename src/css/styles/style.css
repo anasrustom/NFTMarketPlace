@@ -66,7 +66,6 @@ body .owl-stage .owl-item {
 
 #wrapper {
   overflow: hidden;
-  
 }
 
 .de-navbar-left #wrapper {
@@ -857,7 +856,7 @@ header:not(.header-mobile) #mainmenu > li:hover ul.mega {
   list-style: none;
   padding: 0;
   width: 0;
-  background-color: #0033CC;
+  background-color: #403f83;
   position: absolute;
   height: 100vh;
   top: 0;
@@ -13750,11 +13749,6 @@ a.read_more i {
   margin-left: 5px;
   font-size: 12px;
 }
-.nft__item_lik span {
-  color: #808080;
-  margin-left: 5px;
-  font-size: 12px;
-}
 
 .dark-scheme .nft__item_like span {
   color: #ffffff;
@@ -16724,123 +16718,4 @@ img {
 
 .no-cursor {
   cursor: not-allowed;
-}
-
-
-/* my edits  */
-
-.anas-smaller {
-  max-height: 370px;
-  margin-left: 50px;
-}
-
-/* style={{backgroundColor: 'var(--secondary)'}} */
-
-.toggle-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 400px; /* Adjust this value as needed */
-  font-size: 25px;
-  margin: 30px auto -14px auto;
-  padding: 10px;
-}
-
-.toggle-button {
-  width: 60px;
-  height: 34px;
-  position: relative;
-}
-
-.toggle-button .slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  transition: .4s;
-  border-radius: 34px;
-}
-
-.toggle-button .slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 4px;
-  background-color: white;
-  transition: .4s;
-  border-radius: 50%;
-}
-
-.toggle-button .slide {
-  background-color: #000;
-}
-
-.toggle-button .slide:before {
-  transform: translateX(26px);
-}
-
-.toggle-label {
-  display: flex;
-  align-items: center;
-  gap: 5px;
-}
-
-.faicon {
-  margin-right: 20px !important;
-}
-
-.nft__item_like {
-  margin: 0 10px;
-}
-
-.nft__item_lik {
-  position: relative;
-  bottom: 22px;
-  font-size: 14px;
-  color: #808080;
-  float: right;
-}
-
-.checkslot {
-  color: gold;
-}
-
-.xicon {
-  color: red;
-}
-
-.date-container {
-  font-size: 25px;
-  margin: 0 20px;
-  padding: 0;
-}
-
-.de_tab_content {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
-  font-size: 25px;
-  margin: 30px auto -14px auto;
-  padding: 10px;
-}
-
-.boopboop {
-  color: #808080;
-  font-size: 16px;
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  
-}
-
-
-.TIP {
-
-  font-size: 20px;
 }
